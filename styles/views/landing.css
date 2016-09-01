@@ -2,8 +2,7 @@
     height: 100vh;
     width: 500px;
     overflow: scroll;
-    background: url("../../img/big-bg.png")center no-repeat;
-    background-size: cover;
+    background-color: #d26335;
     position: relative;
     margin: auto;
 }
@@ -12,7 +11,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background: #3E3C41;
+    background: #FFEFE2;
     padding: 10px;
     z-index: 1;
 }
@@ -21,12 +20,12 @@
     width: 50px;
 }
 .logo {
-    width: 65%;
+    width: 100px;
 }
 
 .time-container {
     width: 100px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .time{
@@ -91,7 +90,7 @@
     font-weight: 600;
     text-transform: uppercase;
     opacity: 1;
-    border-bottom: 4px solid #F3524A;
+    border-bottom: 4px solid #d26335;
     padding-bottom: 10px;
     width: 33%;
     margin: 0 auto 30px;
@@ -109,7 +108,7 @@
     height: 40px;
     width: 275px;
     margin-bottom: 30px;
-    border: 1px solid #F3524A;
+    border: 1px solid #d26335;
     background: none;
     padding-left: 20px;
     font-size: 14px;
@@ -117,7 +116,7 @@
 }
 
 .form-input:placeholder{
-    color: #F3524A;
+    color: #d26335;
 }
 .form-input:focus{
     outline: none;
@@ -148,7 +147,7 @@
 .complete-todo-button {
     opacity: 1;
     height: 40px;
-    border: 1px solid #F3524A;
+    border: 1px solid #d26335;
     background: none;
     font-size: 14px;
     width: 60%;
