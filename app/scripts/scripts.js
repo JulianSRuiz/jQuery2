@@ -70,7 +70,7 @@ var addTask = function(task) {
                     );
 
     }
-     $('#newTaskForm').slideToggle('fast', 'linear');
+//     $('#newTaskForm').slideToggle('slow', 'linear');
 
 };
 
@@ -82,12 +82,12 @@ $('#saveNewItem').on('click', function (e) {
 
 //Opens form
   $('#add-todo').on('click', function () {
-      $('#newTaskForm').fadeToggle('fast', 'linear');
+      $('#newTaskForm').fadeToggle('slow', 'linear');
   });
   //closes form
   $('#cancel').on('click', function (e) {
       e.preventDefault();
-      $('#newTaskForm').fadeToggle('fast', 'linear');
+      $('#newTaskForm').fadeToggle('slow', 'linear');
   });
 
 
